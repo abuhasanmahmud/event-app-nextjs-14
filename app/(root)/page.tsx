@@ -3,6 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  for (var i = 0; i < 3; i++) {
+    setTimeout(function () {
+      alert(i);
+    }, 1000 + i);
+  }
   return (
     <>
       <section className="bg-primary-50 bg-dotted-pattern bg-contain py-5 md:py-10">

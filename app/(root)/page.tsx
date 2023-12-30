@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  console.log("h");
   for (var i = 0; i < 3; i++) {
     setTimeout(function () {
       alert(i);
